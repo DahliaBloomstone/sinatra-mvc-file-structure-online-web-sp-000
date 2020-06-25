@@ -9,7 +9,7 @@ def initialize(name, breed, age)
   @age = age
   @@all << self
   end
-  self.all
+def self.all
   @@all
   end
 end
